@@ -1,7 +1,8 @@
 /*---------- Inicio Code Immer ----------*/
 
 import './App.css';
-import Testimony from './componentes/Testimony.js';
+import SocialMedia from './components/SocialMedia';
+import Testimony from './components/Testimony.js';
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
         company='Spotify'
         testimony={<>I've always struggled with learning JavaScript. I've taken many courses but freeCodeCamp's course was the one which stuck. Studying JavaScript as well as data structures and algorithms on <strong>freeCodeCamp gave me the skills</strong> and confidence I needed to land my dream job as a software engineer at Spotify. </>}
         />
+        <SocialMedia />
       </div>
     </div>
   );

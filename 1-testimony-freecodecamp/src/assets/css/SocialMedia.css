@@ -1,10 +1,10 @@
  /*---------- Inicio Code Immer ----------*/
  
- @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap'); /*Importando Fuente de Letra Poppins*/
 
 
 .social-media{
-    padding-top: 100px;
+    padding: 50px 0px;
     background-color: transparent; /*Fondo del Contenedor SocialMedia*/
 }
 
@@ -21,7 +21,7 @@
 }
 
 .wrapper .icon {
-    margin: 0 20px;
+    margin: 0 30px; /* Distancia Horizontal de los iconos */
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -68,7 +68,7 @@
 }
 
 .wrapper .icon:hover .tooltip {
-    top: -55px;
+    top: -60px; /* Distancia vertical entre el icono y el nombre */
     opacity: 1;
     pointer-events: auto;
 } 
