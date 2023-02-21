@@ -7,6 +7,7 @@ import Counter from './components/Counter';
 import SocialMedia from './components/SocialMedia';
 import { useState } from 'react';
 
+
 function App() {
 
   const [numClics, setNumClics] = useState(0); //Hook
