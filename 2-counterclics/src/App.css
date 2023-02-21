@@ -12,12 +12,14 @@ body {
 }
 
 .App {
+  height: 100vh;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-top: 15px;
   font-family: Lato, sans-serif;
+  gap: 50px;
 }
 
 .freecodecamp-logo-container {
@@ -33,8 +35,8 @@ body {
 }
 
 .counter-container {
-  height: 750px;
-  min-width: 600px;
+  max-height: 750px;
+  min-width: 350px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;

@@ -42,8 +42,8 @@ function App() {
           isButtonClic={false}
           useClic={counterReset}
           />
-        <SocialMedia />
       </div>
+      <SocialMedia />
     </div>
   );
 }
